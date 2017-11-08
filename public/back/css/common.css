@@ -2,5 +2,11 @@
 * @Author: fanjun-junyi
 * @Date:   2017-11-08 10:56:39
 * @Last Modified by:   fanjun-junyi
-* @Last Modified time: 2017-11-08 10:57:21
+* @Last Modified time: 2017-11-08 14:00:01
 */
+.bg {
+  background-color: #222d32;
+}
+.mt-150 {
+  margin-top: 150px;
+}
