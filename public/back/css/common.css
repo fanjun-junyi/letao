@@ -2,7 +2,7 @@
 * @Author: fanjun-junyi
 * @Date:   2017-11-08 10:56:39
 * @Last Modified by:   fanjun-junyi
-* @Last Modified time: 2017-11-09 15:21:44
+* @Last Modified time: 2017-11-10 19:38:47
 */
 @charset "UTF-8"
 .bg {
@@ -10,6 +10,13 @@
 }
 .mt-150 {
   margin-top: 150px;
+}
+.mb_20{
+  margin-bottom: 20px;
+}
+.table.table-bordered td {
+  text-align: center;
+  vertical-align: middle;
 }
 html,
 body{
