@@ -2,7 +2,7 @@
 * @Author: fanjun-junyi
 * @Date:   2017-11-08 10:58:12
 * @Last Modified by:   fanjun-junyi
-* @Last Modified time: 2017-11-09 15:11:30
+* @Last Modified time: 2017-11-11 13:59:58
 */
 
 // 进度条效果
@@ -41,6 +41,7 @@ $('.child').prev().on('click',function(){
 $('.btn_menu').on('click',function(){
   $('.lt_aside').toggleClass('now');
   $('.lt_main').toggleClass('now');
+  $(".topbar").toggleClass("now");
 })
 // 退出功能
 $('.btn_logout').on('click',function(){

@@ -1,8 +1,8 @@
 /*
 * @Author: fanjun-junyi
 * @Date:   2017-11-08 10:56:39
-* @Last Modified by:   fanjun-junyi
-* @Last Modified time: 2017-11-10 19:38:47
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-11-11 13:59:08
 */
 @charset "UTF-8"
 .bg {
@@ -40,9 +40,10 @@ a:link,a:visited, a:hover,a:active{
   width: 180px;
   height: 100%;
   background-color: #222d32;
-  position: absolute;
+  position: fixed;
   left: 0;
   transition: all 1s;
+  z-index: 999;
 }
 .lt_aside.now {
   left: -180px;
@@ -101,6 +102,7 @@ a:link,a:visited, a:hover,a:active{
   padding-left: 180px;
   /*background-color: pink;*/
   transition: all 1s;
+  padding-top: 70px;
 }
 .lt_main.now {
   padding-left: 0;
@@ -109,8 +111,17 @@ a:link,a:visited, a:hover,a:active{
   background-color: #3c8dbc;
   height: 50px;
   line-height: 50px;
-  padding: 0 20px;
+  padding: 0 20px 0 200px;
   margin-bottom: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 998;
+  transition: all 1s;
+}
+.lt_main .topbar.now {
+  padding-left: 20px;
 }
 .lt_main .topbar a {
   color: #fff;
@@ -121,4 +132,23 @@ a:link,a:visited, a:hover,a:active{
 .pic_right{
   width: 45%;
   height: 400px;
+}
+/*上传图片的样式*/
+.upload_box {
+  width: 82px;
+  height: 34px;
+  position: relative;
+}
+.upload_box input{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.upload_box:hover button {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
 }
