@@ -1,0 +1,43 @@
+/*
+* @Author: fanjun-junyi
+* @Date:   2017-11-13 20:52:37
+* @Last Modified by:   fanjun-junyi
+* @Last Modified time: 2017-11-14 19:34:03
+*/
+@charset "UTF-8";
+.lt_sort {
+  height: 30px;
+  line-height: 30px;
+  background-color: #eee;
+  font-size: 12px;
+  padding: 0 10px;
+}
+.lt_sort a {
+  float: left;
+  width: 25%;
+  text-align: center;
+  color: #333;
+}
+.lt_sort a.now {
+  color: darkorange;
+}
+
+.loading{
+  width: 40px;
+  height: 40px;
+  border: 3px solid #069;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 200px;
+  animation: play 1s ease-in-out infinite;
+}
+
+@keyframes play {
+  from{
+    transform: translate(-50%) rotate(0deg);
+  }
+  to{
+    transform: translate(-50%) rotate(360deg);
+  }
+}

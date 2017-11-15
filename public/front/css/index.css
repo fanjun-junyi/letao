@@ -1,0 +1,15 @@
+/*
+* @Author: fanjun-junyi
+* @Date:   2017-11-12 18:45:13
+* @Last Modified by:   fanjun-junyi
+* @Last Modified time: 2017-11-12 19:01:04
+*/
+/*导航*/
+.lt_nav {
+  padding: 10px;
+}
+
+.lt_nav li {
+  float: left;
+  width: 33.33%;
+}

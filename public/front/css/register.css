@@ -1,0 +1,36 @@
+/*
+* @Author: fanjun-junyi
+* @Date:   2017-11-15 10:12:35
+* @Last Modified by:   fanjun-junyi
+* @Last Modified time: 2017-11-15 10:20:47
+*/
+@charset "utf-8";
+.form {
+  padding:10px;
+}
+.form .vcode input {
+  width: 60%;
+}
+.form .vcode button {
+  width: 35%;
+    display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  font-size: 18px;
+}
+.form .btn_register {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  padding: 0;
+}
+.form .register_text {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.form .disabled {
+  background-color: #999;
+  border-color: #999;
+}
